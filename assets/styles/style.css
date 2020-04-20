@@ -29,11 +29,11 @@ a{
 section{}
 
 .logo{
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
 }
 
 .menu{
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     
 }
 
@@ -81,7 +81,7 @@ section{}
 } */
 
 .box-posts{
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -125,7 +125,7 @@ section{}
 
 .chamda{
     padding: 10% 0% 3% 0%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 footer{
@@ -174,3 +174,23 @@ footer > a{
     color: white;
 }
 
+/* ----------------------Newsletter------------------ */
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;  
+    width:60px;
+}
+
+.mail-null{
+   position: absolute;
+   left: -5000px;
+}
